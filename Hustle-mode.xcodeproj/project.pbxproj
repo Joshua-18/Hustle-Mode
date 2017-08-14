@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		423185401F3B860F0061DA0A /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42BAC6B21F3AD6F100FDFBDF /* hustle-on.wav */; };
 		42BAC6A11F3AD6C900FDFBDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BAC6A01F3AD6C900FDFBDF /* AppDelegate.swift */; };
 		42BAC6A31F3AD6C900FDFBDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BAC6A21F3AD6C900FDFBDF /* ViewController.swift */; };
 		42BAC6A61F3AD6C900FDFBDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BAC6A41F3AD6C900FDFBDF /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		42BAC6A71F3AD6C900FDFBDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42BAC6AA1F3AD6C900FDFBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42BAC6AC1F3AD6C900FDFBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BAC6B21F3AD6F100FDFBDF /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		42BAC69F1F3AD6C900FDFBDF /* Hustle-mode */ = {
 			isa = PBXGroup;
 			children = (
+				42BAC6B21F3AD6F100FDFBDF /* hustle-on.wav */,
 				42BAC6A01F3AD6C900FDFBDF /* AppDelegate.swift */,
 				42BAC6A21F3AD6C900FDFBDF /* ViewController.swift */,
 				42BAC6A41F3AD6C900FDFBDF /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423185401F3B860F0061DA0A /* hustle-on.wav in Resources */,
 				42BAC6AB1F3AD6C900FDFBDF /* LaunchScreen.storyboard in Resources */,
 				42BAC6A81F3AD6C900FDFBDF /* Assets.xcassets in Resources */,
 				42BAC6A61F3AD6C900FDFBDF /* Main.storyboard in Resources */,
@@ -275,11 +279,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E98DW7GR6Z;
 				INFOPLIST_FILE = "Hustle-mode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Joshua18.Hustle-mode";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoshuaMembreno.Hustle-mode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,11 +294,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E98DW7GR6Z;
 				INFOPLIST_FILE = "Hustle-mode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Joshua18.Hustle-mode";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoshuaMembreno.Hustle-mode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
