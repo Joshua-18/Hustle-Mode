@@ -9,6 +9,11 @@
 import UIKit
 import AVFoundation
 
+var prefersStatusBarHidden: Bool {
+    return true
+}
+
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var darkBlueBG: UIImageView!

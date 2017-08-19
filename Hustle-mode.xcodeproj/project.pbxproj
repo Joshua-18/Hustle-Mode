@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		423185401F3B860F0061DA0A /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42BAC6B21F3AD6F100FDFBDF /* hustle-on.wav */; };
+		4264C3C91F47B856009C5225 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BAC6AC1F3AD6C900FDFBDF /* Info.plist */; };
 		42BAC6A11F3AD6C900FDFBDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BAC6A01F3AD6C900FDFBDF /* AppDelegate.swift */; };
 		42BAC6A31F3AD6C900FDFBDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BAC6A21F3AD6C900FDFBDF /* ViewController.swift */; };
 		42BAC6A61F3AD6C900FDFBDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BAC6A41F3AD6C900FDFBDF /* Main.storyboard */; };
@@ -128,6 +129,7 @@
 				423185401F3B860F0061DA0A /* hustle-on.wav in Resources */,
 				42BAC6AB1F3AD6C900FDFBDF /* LaunchScreen.storyboard in Resources */,
 				42BAC6A81F3AD6C900FDFBDF /* Assets.xcassets in Resources */,
+				4264C3C91F47B856009C5225 /* Info.plist in Resources */,
 				42BAC6A61F3AD6C900FDFBDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
